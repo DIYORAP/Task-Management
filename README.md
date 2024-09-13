@@ -13,17 +13,17 @@ A simple task management API built with node.js, express, and mongoDB. This API 
 - error handling.
 
 ## API Endpoints
-1.Create a New Task
+#### 1.Create a New Task<br/>
 URL: POST /tasks
-2.Get All Tasks
+#### 2.Get All Tasks<br/>
 URL: GET /tasks
-3.Get a Single Task by ID
+#### 3.Get a Single Task by ID<br/>
 URL: GET /tasks/:id
-4.Update a Task
+#### 4.Update a Task<br/>
 URL: PATCH /tasks/:id
-5.Mark a Task as Completed
+#### 5.Mark a Task as Completed<br/>
 URL: PATCH /tasks/:id/complete
-6.Delete a Task
+#### 6.Delete a Task<br/>
 URL: DELETE /tasks/:id
 
 ## 1:Create a New Task
