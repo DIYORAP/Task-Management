@@ -12,6 +12,20 @@ A simple task management API built with node.js, express, and mongoDB. This API 
 - validationrequired fields and restricted operations.
 - error handling.
 
+## API Endpoints
+1.Create a New Task
+URL: POST /tasks
+2.Get All Tasks
+URL: GET /tasks
+3.Get a Single Task by ID
+URL: GET /tasks/:id
+4.Update a Task
+URL: PATCH /tasks/:id
+5.Mark a Task as Completed
+URL: PATCH /tasks/:id/complete
+6.Delete a Task
+URL: DELETE /tasks/:id
+
 ## 1:Create a New Task
 
 ### Endpoint: POST /tasks
